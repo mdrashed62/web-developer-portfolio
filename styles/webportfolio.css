@@ -4,9 +4,11 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 .text-primary {
     color: #FD6E0A;
 }
+
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
@@ -16,12 +18,14 @@ body {
     color: white;
     padding: 15px 35px;
 }
+
 .section-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
+
 .section-description {
     color: #757575;
     text-align: center;
@@ -39,11 +43,13 @@ nav {
     margin: 0px 200px;
 
 }
-.nav-title{
+
+.nav-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800px;
 }
+
 nav>ul {
     display: flex;
     align-items: center;
@@ -60,7 +66,7 @@ nav a {
 }
 
 .site-title {
-    color:  #181818;
+    color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
@@ -116,7 +122,8 @@ main {
     max-width: 1140px;
     margin: 0px auto;
 }
-main section{
+
+main section {
     margin-top: 130px;
 }
 
@@ -157,16 +164,40 @@ main section{
 
 .skill-description {
     color: #757575;
-    
+
 }
 
 /* resume section styles */
 
-/* .resume-colum-title {
+.resume-colum-title {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
 }
-.resume-container{
+
+.resume-container {
     display: flex;
-} */
+    gap: 50px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px;
+}
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-item-institute,
+.resume-item-description {
+    color: #757575;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
